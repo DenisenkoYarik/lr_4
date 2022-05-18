@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Додаток для запису екрану</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+     <script defer src="render.js"></script>
+  </head>
+  <body class="content">
+    <h1>Electron Screen Recorder</h1>
+
+    <video></video>
+
+    <button id="startBtn" class="button is-primary">Почати запис</button>
+    <button id="stopBtn" class="button is-warning">Закінчити запис</button>
+    <button id="openBtn" class="button is-warning">Відкрити</button>
+    <button id="resetBtn" class="button is-warning">Почати спочатку</button>
+
+    <hr />
+
+    <button id="videoSelectBtn" class="button is-text">
+      Chose a Video Sourse
+    </button>
+    
+  </body>
+</html>
